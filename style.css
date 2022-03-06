@@ -1,0 +1,45 @@
+
+body{
+	border: 2px solid black;
+}
+*
+{
+
+	box-sizing: border-box;
+
+}
+
+
+.row{
+			clear: both;
+			display: flex;
+		}
+
+
+		
+.col-4{
+			float: left;
+			width: 31.3%;
+			border: 2px solid black;
+			height: 200px; 
+
+			
+		}
+		.col-12{
+			float: left;
+			width: 100%;
+
+
+		}
+    p{
+			text-align: justify;
+		}
+
+		[class|='col']{
+			padding: 5px;
+		}
+
+
+h3{
+	text-align: right;
+} .pro{padding: 70px;  margin: 20px;}
